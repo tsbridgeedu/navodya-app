@@ -14,9 +14,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+
         customYellow: 'rgba(234, 195, 32, 0.25)', 
+         theme : '#6069E7'
       },
 
+
+
+       
+      }
 
     },
   },

@@ -1,10 +1,17 @@
 
 
+
 export default function Home() {
   return (
-    <main>
 
-      Home
-    </main>
-  );
+    <>
+      
+
+      <main>
+        Home
+      </main>
+      
+    </>
+  )
+
 }
