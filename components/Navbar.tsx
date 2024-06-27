@@ -44,7 +44,7 @@ const Navbar = () => {
   const pathname = usePathname()
   return (
     <nav className='bg-theme w-full flex'>
-      <div className="flex w-full py-9 xl:pl-10 pl-6 flex-row xl:justify-around justify-between items-center bg-theme">
+      <div className="flex w-full lg:py-9 py-5 xl:pl-10 pl-6 flex-row xl:justify-around justify-between items-center bg-theme">
         <div className="flex text-white text-lg">Logo</div>
         <ul className="xl:flex hidden flex-row gap-12 text-white tracking-wider">
           {links.map((items, index) => {
