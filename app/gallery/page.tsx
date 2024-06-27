@@ -17,7 +17,7 @@ const Gallery: React.FC<Props> = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-12 p-4'>
       <h1 className='text-5xl font-semibold'>Gallery</h1>
-      <div className='flex justify-center items-center gap-2 md:gap-20'>
+      <div className='flex max-[768px]:flex-col justify-center items-center gap-2 md:gap-20'>
         <input 
           type="text" 
           placeholder=' Search by name' 
