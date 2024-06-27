@@ -69,7 +69,7 @@ const Events = (props: Props) => {
   return (
     <div className="eventcontainer">
       <div
-        className="relative w-full  bg-cover bg-center h-80 sm:bg-cover sm:bg-center sm:my-16 sm:h-96 xs:bg-cover xs:bg-center xs:h-90"
+        className="relative w-full  bg-cover bg-center h-80 sm:bg-cover sm:bg-center  sm:h-96 xs:bg-cover xs:bg-center xs:h-90"
         style={{
           backgroundImage: "url(/event.png)",
           backgroundPosition: "center 80%",
@@ -80,11 +80,11 @@ const Events = (props: Props) => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative flex flex-col items-center justify-center h-full text-white">
           <h1
-            className="text-4xl font-bold sm:text-2xl xs:text-xl text-[#000AA0]"
+            className="text-5xl font-bold sm:mb-14 sm:text-6xl xs:text-xl text-[#000AA0]"
           >
             Alumni Events
           </h1>
-          <div className="mt-4 flex flex-col sm:flex-row sm:justify-center">
+          <div className=" flex flex-col sm:flex-row sm:justify-center">
             <button className="bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 hidden sm:block">
               Host Event
             </button>
