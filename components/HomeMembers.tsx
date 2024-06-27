@@ -26,9 +26,9 @@ const HomeMembers = () => {
                                             {member.role}
                                         </h2>
                                         <div className="flex items-center gap-4">
-                                            {member.icons.map((Icon,iconIndex)=>{
-                                                return(
-                                                    <Icon key={iconIndex} size={20}/>
+                                            {member.icons.map((Icon, iconIndex) => {
+                                                return (
+                                                    <Icon key={iconIndex} size={20} />
                                                 )
                                             })}
                                         </div>

@@ -1,4 +1,4 @@
-const HomeMiddleSection:React.FC = () => {
+const HomeMiddleSection: React.FC = () => {
     return (
         <div className="flex flex-col items-center gap-10">
             <div className='flex flex-col justify-center items-center md:px-12 px-6 gap-10'>

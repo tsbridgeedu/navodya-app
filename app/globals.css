@@ -1,12 +1,5 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-.home__arrow{
-    width: 0;
-    height: 0;
-    border-left:50px solid transparent;
-    border-right:50px solid transparent;
-    border-bottom:50px solid #DEB91E;
-    transform: rotate(90deg);
-}
+ 
