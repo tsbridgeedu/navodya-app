@@ -5,8 +5,10 @@ import HomeMembers from '../components/HomeMembers';
 import HomeAlumniNetwork from '../components/HomeAlumniNetwork';
 import Image from 'next/image';
 
+
 export default function Home() {
   return (
+<>
     <main className='flex flex-col bg-[#E7EDFD] gap-10'>
       <HomeHeroSection />
       <HomeMiddleSection />
@@ -18,5 +20,7 @@ export default function Home() {
       <HomeMembers />
       <HomeAlumniNetwork />
     </main>
+  </>
   );
+
 }
