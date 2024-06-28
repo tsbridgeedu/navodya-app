@@ -26,7 +26,7 @@ const links = [
     name: 'Blogs'
   },
   {
-    path: '/contact-us',
+    path: '/contact',
     name: 'Contact Us'
   },
   {
