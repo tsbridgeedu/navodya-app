@@ -139,7 +139,7 @@ const ContactUs = () => {
             id="name"
             name="name"
             placeholder="Your Name*"
-            className="w-full md:h-12  rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-5 py-2 mt-1  bg-slate-300 text-black placeholder-black"
+            className="w-full md:h-12  rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-5 py-2 mt-1  bg-slate-300 text-black placeholder-black"
             required
           />          </div>
           <div className="w-1/2">
@@ -149,7 +149,7 @@ const ContactUs = () => {
               id="email"
               name="email"
               placeholder=" Email Address *"
-              className="w-full md:h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
+              className="w-full md:h-12 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
               required
             />          </div>
         </div>
@@ -164,7 +164,7 @@ const ContactUs = () => {
               id="phone"
               name="phone"
               placeholder=" Phone Number *"
-              className="w-full md:h-12  rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
+              className="w-full md:h-12  rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
               required
             />
           </div>
@@ -176,7 +176,7 @@ const ContactUs = () => {
             id="subject"
             name="subject"
             placeholder="Subject *"
-            className="w-full  md:h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
+            className="w-full  md:h-12 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
             required
           />
           </div>
@@ -188,7 +188,7 @@ const ContactUs = () => {
             id="message"
             name="message"
             placeholder="Write  Message *"
-            className="w-full h-52 rounded-md border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black md:mt-10"
+            className="w-full h-52 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black md:mt-10"
             rows={4}
             maxLength={2000}
             required
