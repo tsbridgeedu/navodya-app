@@ -80,16 +80,16 @@ const Events = (props: Props) => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative flex flex-col items-center justify-center h-full text-white">
           <h1
-            className="text-5xl font-bold sm:mb-14 sm:text-6xl xs:text-xl text-[#000AA0]"
+            className=" text-5xl font-bold sm:mb-14 sm:text-6xl xs:text-xl text-[#000AA0]"
           >
             Alumni Events
           </h1>
           <div className=" flex flex-col sm:flex-row sm:justify-center">
-            <button className="bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 hidden sm:block">
+            <button className="flex flex-col md:bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 mt-6 sm:mt-0 sm:mr-2 sm:mb-0 ">
               Host Event
             </button>
 
-            <button className="bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 hidden sm:block">
+            <button className="flex flex-col md:bg-yellow-500 rounded-md text-white px-4 py-2 mb-2 sm:mr-2 sm:mb-0 ">
               Check Upcoming Events
             </button>
           </div>
