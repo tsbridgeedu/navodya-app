@@ -17,6 +17,7 @@ const HomeCarousel: React.FC = () => {
                 spaceBetween={30}
                 loop={true}
                 effect={'fade'}
+                navigation={true}
                 pagination={{
                     clickable: true,
                 }}

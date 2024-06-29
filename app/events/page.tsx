@@ -1,70 +1,9 @@
 import React from "react";
+import EventsData from './Data/data.json';
 
 type Props = {};
 
 const Events = (props: Props) => {
-  const events = [
-    {
-      date: "15",
-      month: "March",
-      heading: "FEATURED",
-      title: "Webinar on Career Development",
-      location: "Virtual",
-      image: "/image1.png",
-      description:
-        "An insightful webinar with industry experts discussing career growth and skill development.",
-    },
-    {
-      date: "20",
-      month: "July",
-      heading: "FEATURED",
-      title: "Annual Alumni Meet 2024",
-      location: "JNV Campus, New Delhi",
-      image: "/image2.png",
-      description:
-        "Reconnect with old friends, network with fellow alumni, and participate in engaging sessions and activities.",
-    },
-    {
-      date: "25",
-      month: "July",
-      heading: "FEATURED",
-      title: "Monthly Networking Meet-Up",
-      location: "JNV Campus",
-      image: "/image3.png",
-      description:
-        "An informal gathering for local alumni to network and socialize.",
-    },
-    {
-      date: "17",
-      month: "Aug",
-      heading: "FEATURED",
-      title: "Scholarship Fundraising Drive",
-      location: "Virtual",
-      image: "/image4.png",
-      description:
-        "Help us raise funds for scholarships for deserving JNV students. Your contributions can change lives.",
-    },
-    {
-      date: "10",
-      month: "Sept",
-      heading: "FEATURED",
-      title: "Alumni Sports Meet",
-      location: "Sports Ground",
-      image: "/image5.png",
-      description:
-        "Events included football, basketball, and athletics, fostering team spirit and camaraderie.",
-    },
-    {
-      date: "04",
-      month: "Oct",
-      heading: "FEATURED",
-      title: "Community Service Day",
-      location: "Various Locations",
-      image: "/image6.png",
-      description:
-        "Activities include environmental clean-ups, educational workshops, and health camps.",
-    },
-  ];
 
   return (
     <div className="eventcontainer">
@@ -98,7 +37,7 @@ const Events = (props: Props) => {
 
       {/* Cards Section */}
       <div className="container mx-auto px-4 py-8 min-h-screen items-center justify-center">
-        {events.map((event, index) => (
+        {EventsData.events.map((event, index) => (
           <div
             key={index}
             className="flex flex-col md:flex-row bg-[#e7edfd] shadow-md border-l-8 border-yellow-400 overflow-hidden mb-6"
