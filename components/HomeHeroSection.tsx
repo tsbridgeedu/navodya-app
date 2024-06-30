@@ -16,6 +16,7 @@ const HomeHeroSection: React.FC = () => {
                 slidesPerView={1}
                 spaceBetween={30}
                 autoHeight={true}
+                navigation={true}
                 loop={true}
                 effect={'fade'}
                 pagination={{

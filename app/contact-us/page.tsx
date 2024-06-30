@@ -42,7 +42,7 @@ const ContactUs = () => {
         <div className="flex flex-col items-center md:flex-row md:justify-center md:gap-4 ">
           {/* Left Side */}
           <div className="left-container sm:ml-10 md:h-auto md:-ml-44 md:my-4 ">
-            <h2 className="md:-mt-16 text-3xl font-bold mb-4 font-pt-sans-caption">
+            <h2 className="text-3xl font-bold mb-4 font-pt-sans-caption">
               WE ARE ALWAYS HERE TO HELP YOU.
             </h2>
             <p className="mb-4 font-poppins text-lg sm:mx-4">
@@ -50,41 +50,42 @@ const ContactUs = () => {
               We will get back to
               you as soon as possible.
             </p>
-            <div className="flex flex-col items-center md:flex-row md:items-center mb-4 md:space-x-4">
+            <div className="flex items-center mb-4 space-x-4">
               {/* SVG icon */}
-              <div className="relative mb-2 md:mb-0">
+              <div className="relative">
                 {/* Blue background SVG */}
                 <img
                   src="/bluebg.svg"
                   alt="bg"
-                  className="w-16 h-12 md:mr-2"
+                  className="w-16 h-12 mr-2 "
                   style={{ zIndex: -1 }}
                 />
 
                 {/* Icon SVG */}
-                <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute inset-0 flex items-center justify-center ">
                   <img
                     src="/visitus.svg"
-                    alt="mail"
-                    className="w-6 h-4 md:mr-2"
+                    alt="visitus"
+                    className="w-6 h-5 md:justify-center"
                   />
                 </div>
               </div>
-              <div className="text-center md:text-left">
+              <div>
                 <h3 className="font-semibold">VISIT US</h3>
-                <p className="font-poppins text-sm">
-                  Jawahar Navodaya Vidyalaya, Chalakurthy Camp, Nalgonda, Telangana, India
+                <p className="font-poppins text-sm ">
+                  Jawahar Navodaya Vidyalaya, Chalakurthy Camp, Nalgonda, Telangana,
+                  India
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center mb-4 md:flex-row md:space-x-4 md:items-center">
+            <div className="flex items-center mb-4 space-x-4">
               {/* SVG icon */}
-              <div className="relative mb-2 md:mb-0">
+              <div className="relative">
                 {/* Blue background SVG */}
                 <img
                   src="/bluebg.svg"
                   alt="bg"
-                  className="w-16 h-12 md:mr-0"
+                  className="w-16 h-12 mr-2"
                   style={{ zIndex: -1 }}
                 />
 
@@ -93,23 +94,23 @@ const ContactUs = () => {
                   <img
                     src="/mail.svg"
                     alt="mail"
-                    className="w-6 h-4 "
+                    className="w-6 h-4 mr-2"
                   />
                 </div>
               </div>
-              <div className="text-center md:text-left">
+              <div>
                 <h3 className="font-semibold">EMAIL ID</h3>
                 <p className="font-poppins text-sm">info@jnvccnalumni.org</p>
               </div>
             </div>
-            <div className="flex flex-col items-center md:flex-row md:items-center mb-4 md:space-x-4">
+            <div className="flex items-center mb-4 space-x-4">
               {/* SVG icon */}
-              <div className="relative mb-2 md:mb-0">
+              <div className="relative">
                 {/* Blue background SVG */}
                 <img
                   src="/bluebg.svg"
                   alt="bg"
-                  className="w-16 h-12 md:mr-2"
+                  className="w-16 h-12 mr-2"
                   style={{ zIndex: -1 }}
                 />
 
@@ -118,11 +119,11 @@ const ContactUs = () => {
                   <img
                     src="/call.svg"
                     alt="call"
-                    className="w-6 h-4 "
+                    className="w-6 h-4 mr-2"
                   />
                 </div>
               </div>
-              <div className="text-center md:text-left">
+              <div>
                 <h3 className="font-semibold">CALL NOW</h3>
                 <p className="font-poppins text-sm">+1 (123) 456-7890</p>
               </div>
@@ -130,61 +131,66 @@ const ContactUs = () => {
           </div>
 
           {/* Right Side */}
-          <div className="right container sm:mr-10 md:-mr-48 md:my-4">
-            <form className="bg-white rounded-lg p-6 space-y-4">
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 ">
-                <div className="w-full sm:w-1/2">
-                  {/* placeholder k class mei put kiya hai maine mb-8 */}
+          <div className="right container md:h-auto     sm:mr-10  md:-mr-44 md:my-4">
+            <form className="bg-white rounded-lg p-6 space-y-4 ">
+              <div className="flex space-x-4 mb-8">
+                <div className="w-1/2">
+
                   <input
                     type="text"
                     id="name"
                     name="name"
                     placeholder="Your Name*"
-                    className=" mb-2 w-full h-12 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 bg-slate-300 text-black placeholder-black"
+                    className="w-full md:h-12  rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-5 py-2 mt-1  bg-slate-300 text-black placeholder-black"
                     required
-                  />
-                </div>
-                <div className="w-full sm:w-1/2">
+                  />          </div>
+                <div className="w-1/2">
+
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="Email Address*"
-                    className="mb-2 w-full h-12 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 bg-slate-300 text-black placeholder-black"
+                    placeholder=" Email Address *"
+                    className="w-full md:h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
                     required
-                  />
-                </div>
+                  />          </div>
               </div>
-              {/* placeholder k class mei put kiya hai maine mb-8 */}
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4  sm:mb-20">
-                <div className="w-full sm:w-1/2">
+
+
+              <div className="flex space-x-4 md:mb-20">
+
+                <div className="w-1/2">
+
                   <input
                     type="tel"
                     id="phone"
                     name="phone"
-                    placeholder="Phone Number*"
-                    className=" mb-2 w-full h-12 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 bg-slate-300 text-black placeholder-black"
+                    placeholder=" Phone Number *"
+                    className="w-full md:h-12  rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
                     required
                   />
                 </div>
-                <div className="w-full sm:w-1/2">
+
+                <div className="w-1/2">
+
                   <input
                     type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Subject*"
-                    className=" w-full h-12 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 bg-slate-300 text-black placeholder-black"
+                    placeholder="Subject *"
+                    className="w-full  md:h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black"
                     required
                   />
                 </div>
               </div>
 
-              <div>
+              <div >
+
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="Write Message*"
-                  className="w-full h-52 mt-4 rounded-xl border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 bg-slate-300 text-black placeholder-black"
+                  placeholder="Write  Message *"
+                  className="w-full h-52 rounded-md border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 px-3 py-2 mt-1  bg-slate-300 text-black placeholder-black md:mt-10"
                   rows={4}
                   maxLength={2000}
                   required
@@ -192,13 +198,12 @@ const ContactUs = () => {
               </div>
               <button
                 type="submit"
-                className="rounded-xl bg-blue-800 text-white  px-4 py-2 hover:bg-blue-600 transition-colors w-full sm:w-auto"
+                className="bg-blue-800 text-white rounded-md px-4 py-2 mt-4 hover:bg-blue-600 transition-colors"
               >
                 SEND MESSAGE
               </button>
             </form>
           </div>
-
         </div>
       </div>
 
