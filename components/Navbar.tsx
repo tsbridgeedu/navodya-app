@@ -22,7 +22,7 @@ const links = [
     name: 'Gallery'
   },
   {
-    path: '/blog',
+    path: '/alumniMeetGallery',
     name: 'Blogs'
   },
   {
