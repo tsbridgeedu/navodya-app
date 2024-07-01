@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
           <p className='font-bold text-3xl py-5'>Logo</p>
           <div><p className='font-bold text-3xl py-5'>Quick Links</p>
             <ul className='flex flex-col gap-2'>
-              <li><a href='./'>Terms & Condition</a></li>
+              <li><a href='./'>Terms & Conditions</a></li>
               <li><a href='./'>Sitemap</a></li>
               <li><a href='./'>Disclaimer</a></li>
               <li><a href='./'>Copyright Policy</a></li>
@@ -59,7 +59,7 @@ const Footer = (props: Props) => {
       <hr className='bg-white' />
       <div className='flex justify-between mx-10 font-normal py-5 max-sm:flex-col max-sm:gap-10'>
         <p>© 2024 Logo Pvt Ltd</p>
-        <p>Terms $ conditions</p>
+        <p className='cursor-pointer hover:underline ease duration-300 transition-all'>Terms & Conditions</p>
       </div>
     </div>
   )
