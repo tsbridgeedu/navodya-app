@@ -14,9 +14,9 @@ const HomeMembers = () => {
                     <div className="flex flex-wrap items-center gap-8 max-[480px]:gap-5 max-lg:justify-center ">
                         {associationMembers.map((member, index) => {
                             return (
-                                <div key={index} className="flex flex-col bg-white items-center px-2 py-1 gap-2 border-[#979393] border-[1px] rounded-xl shadow-xl min-w-36 lg:w-48 w-44 max-[420px]:w-40 cursor-pointer transition duration-200 ease-in-out hover:scale-105 hover:shadow-[0_4px_16px_-1px_rgb(0,0,0,0.1),0_2px_4px_-2px_rgb(0,0,0,0.1)] ">
-                                    <div className='rounded-full border-[#6512B7] border-2 relative min-w-[100px] w-[150px] h-[150px] max-[420px]:w-[130px] max-[420px]:h-[130px]  '>
-                                        <img src={member.img} alt="jnvmember" className='w-full h-full rounded-full bg-white absolute' />
+                                <div key={index} className="flex flex-col bg-white items-center px-3 py-1 gap-2 border-[#979393] border-[1px] rounded-xl shadow-xl min-w-36 lg:w-48 w-44 max-[420px]:w-40 cursor-pointer transition duration-200 ease-in-out hover:scale-105 hover:shadow-[0_4px_16px_-1px_rgb(0,0,0,0.1),0_2px_4px_-2px_rgb(0,0,0,0.1)] ">
+                                    <div className='rounded-full border-[#6512B7] border-2 '>
+                                        <img src={member.img} alt="jnvmember" className='w-full h-full rounded-full object-cover bg-white' />
                                     </div>
                                     <div className="flex flex-col gap-1 items-center">
                                         <h2 className="text-lg max-[420px]:text-base font-semibold text-center">
