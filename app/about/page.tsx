@@ -26,22 +26,22 @@ import React from 'react'
         <p className="text-base md:text-xl font-normal leading-6 text-justify mb-4 mx-4">
           Our mission is to cultivate a robust network of JNVCC alumni, provide mentorship and guidance to current students, and foster a spirit of giving back to the community. We aim to create a platform for alumni to share their experiences, support each other's endeavors, and contribute to the growth of Navodaya Vidyalayas.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:mb-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:mb-10 mx-3 ">
           {/* <div className="bg-white p-4 rounded-lg shadow-md w-1/2"> */}
           <div>
-            <img src="/plate1.svg" alt="Card Image" className="w-full p-4  object-cover mb-4" />
+            <img src="/plate1.svg" alt="Card Image" className="w-full object-cover mb-4" />
             {/* <svg className="mx-auto mb-4">...</svg> */}
            
           </div>
           {/* plate2 */}
           <div>
-            <img src="/plate2.svg" alt="Card Image" className="w-full p-4  object-cover mb-4" />
+            <img src="/plate2.svg" alt="Card Image" className="w-full object-cover mb-4" />
             {/* <svg className="mx-auto mb-4">...</svg> */}
            
           </div>
           {/* plate3 */}
           <div>
-            <img src="/plate3.svg" alt="Card Image" className="w-full p-4  object-cover mb-4" />
+            <img src="/plate3.svg" alt="Card Image" className="w-full object-cover mb-4" />
             {/* <svg className="mx-auto mb-4">...</svg> */}
            
           </div>
